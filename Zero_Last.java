@@ -8,23 +8,23 @@ public class Zero_Last {
         while(i<siz)
         {
                     
-            // if(l.get(i)==0)
-            // {
-            // l.remove(i);
-            // l.add(0);
-            // siz--;
-            // }
-            // i++;
-            // if(l.get(i-1)==0)
-            // i--; 
+            if(l.get(i)==0)
+            {
+            l.remove(i);
+            l.add(0);
+            siz--;
+            }
+            i++;
+            if(l.get(i-1)==0)
+            i--; 
 
             //Another Method
-            if(l.get(i)!=0)
-            {
-                int val=l.get(i);
-                l.set(i,l.get(j));
-                l.set(j,val);
-                j++;
+            // if(l.get(i)!=0)
+            // {
+            //     int val=l.get(i);
+            //     l.set(i,l.get(j));
+            //     l.set(j,val);
+            //     j++;
                 
             }
             i++;
