@@ -25,10 +25,10 @@ public class Zero_Last {
             //     l.set(i,l.get(j));
             //     l.set(j,val);
             //     j++;
-                
+                  i++;
             }
-            i++;
-        }
+          
+        
         
         for(int y:l)
         System.out.print(y+"");
